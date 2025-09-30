@@ -4,6 +4,6 @@ pantalla la cadena ¡Hola <nombre>!, donde <nombre> es el
 nombre que el usuario haya introducido.'''
 
 
-nombre = input("¿Cómo te llamas? " + " ")
-print("¡Hola" + " " + nombre + "!")
+nombreI = input("¿Cómo te llamas? " + " ")
+print("¡Hola" + " " + nombreI + "!")
 
