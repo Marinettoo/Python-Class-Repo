@@ -1,2 +1,2 @@
-hola = "Hola Mundo!"
-print(hola)
+holaM = "Hola Mundo!"
+print(holaM)
