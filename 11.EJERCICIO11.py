@@ -16,6 +16,12 @@ balance_1 = deposito_inicial * (1 + interes)
 balance_2 = balance_1 * (1 + interes)
 balance_3 = balance_2 * (1 + interes)
 
-print("Balance después del primer año: ", balance_1, "€")
-print("Balance después del segundo año: ", balance_2, "€")
-print("Balance después del tercer año: ", balance_3, "€")
+balance_1red = round(balance_1, 2)
+balance_2red = round(balance_2, 2)
+balance_3red = round(balance_3, 2)
+
+
+
+print("Balance después del primer año: ", balance_1red, "€")
+print("Balance después del segundo año: ", balance_2red, "€")
+print("Balance después del tercer año: ", balance_3red, "€")
