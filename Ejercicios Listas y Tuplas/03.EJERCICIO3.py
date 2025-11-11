@@ -5,8 +5,13 @@ mensaje En <asignatura> has sacado <nota> donde <asignatura> es
 cada una des las asignaturas de la lista y <nota> cada una de las correspondientes
 notas introducidas por el usuario.'''
 
-asignaturas = ['Matemáticas', 'Física', 'Química', 'Historia','Lengua']
+asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 
+notas = []
 for asignatura in asignaturas:
-    nota = input(f'¿Que nota has sacado en {asignatura}?')
-    print(f'En {asignatura} has sacado un {nota}')
+    nota = input(f"Nota de {asignatura}: ")
+    notas.append(nota)
+
+print()
+for asignatura, nota in zip(asignaturas, notas):
+    print(f"En {asignatura} has sacado {nota}")
